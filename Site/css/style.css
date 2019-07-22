@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background:url(/css/matrix1.gif);
+}
+
+/* Banniere */
+
+header{
+    display:flex;
+    justify-content: center;
+}
+header2{
+    display:flex;
+    justify-content: center;
+    margin-right: 26%;
+}
+.boxbanniere{
+    border:thick double rgb(63, 53, 196);
+    height: 101px;
+    position : relative;
+    left: 200px;
+}
+hr{
+    height:2px;
+    background-color:black;
+    width:80%;
+}
+header > .connexionBox{
+    position: relative;
+    left : 24%;
+}
+.connexionBox{
+    height: 111px;
+    width: 399px;
+    background-color: #C1C1C1;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 5%;
+
+}
+
+/* Barre de navigation */
+
+nav{
+    height:60px;
+    width:100%;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    margin-top: 5px;
+}
+
+.navbar-menu li{
+    list-style:none;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items:center;
+    margin:auto;
+}
+
+.navbar-menu li > a{
+    text-decoration:none;
+    color:blue;
+    padding: 0 12.5px;
+    font-weight:700;
+}
+
+.navbar-item > a{
+    display:block;
+    line-height:60px;
+}
+
+.navbar-item > a:hover{
+    background-color: white;
+    color: #F69000;
+}
+
+/* Bwate */
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    margin: 50px 0 50px 0;
+}
+.container-p2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+}
+.container-p2 > .bigbox > p{
+    text-align:center;
+}
+
+.bigbox > h2{
+    text-align: center;
+}
+.container-reverse{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    margin: 50px 0 50px 0;
+}
+.bigbox{
+    width: 70%;
+    height: 100%;
+    border:1mm ridge black;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.littlebox{
+    width: 25%; 
+    height: 100%;
+    border:1mm ridge black;
+    background-color: white;
+}
+ul > li{
+    list-style: none;
+}
+
+h2{
+    padding-left:1em;
+}
+
+.littlebox > p{
+    padding-left: 1em;
+}
+
+.boxcol{
+    display:flex;
+}
+
+.container:last-of-type > .bigbox{
+    margin: 0 50px 0 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.imgDev{
+    display:flex;
+    justify-content : center;
+}
+.imgDev>img{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+/* Tableau page 2 */
+table{
+    border: 2px solid black;
+    margin: 20px;
+    width: 100%;
+}
+.titre{
+    background-color: #CCFFCC;
+    border: medium solid black;
+}
+tbody{
+    background-color:#FFFF99;
+}
+.tableaux{
+    display:flex;
+}
+td{
+    text-align: center;
+    border: thin solid black;
+}
+
+/* Pied de page */
+
+footer{
+    height: 20%;
+    background-color:white;
+}
+
+.banniere-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banniere-bottom2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align:center;
+}
+
+/* Connection */
+.boiteConnection{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-radius : 30%;
+    text-align: center;
+    position : absolute;
+    left: 25%;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.gif{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20%;
+}
+
+/* Formulaire */
+.formulaire{
+    height : 100%;
+    width : 50%;
+    background-color: white;
+    display:flex;
+    position: absolute;
+    right: 25%;
+    border-radius: 2%;
+}
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+.je_sais_pas_quoi_mettre{
+    padding: 5px;
+}
